@@ -57,7 +57,7 @@ import java.io.*;
 
 
 
-class JavaDatatypes{
+class Solution{
     public static void main(String []argh)
     {
 
