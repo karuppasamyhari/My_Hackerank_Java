@@ -36,7 +36,7 @@ java.lang.Exception: Breadth and height must be positive
 import java.io.*;
 import java.util.*;
 
-public class JavaStaticinitializerblock {
+public class Solution{
 
     public static void main(String[] args) {
         int breadth;
