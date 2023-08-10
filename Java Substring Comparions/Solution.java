@@ -55,7 +55,7 @@ public class Solution {
         // 'largest' must be the lexicographically largest substring of length 'k'
             
         for(int i = 0;i<s.length()-k+1;i++) // Here in the conditional expression inside for loop the i value will increment and compare with lenght of the string by subracting with
-        {                                      " k " then add with 1. So that we will check until the vaild substring.
+        {                                     // " k " then add with 1. So that we will check until the vaild substring.
         
             String temp = s.substring(i,i+k);
             smallest = smallest.compareTo(temp)<0?smallest:temp;
